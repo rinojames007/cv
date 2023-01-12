@@ -1,15 +1,17 @@
 body {
   color: #40514e;
+  font-family: "Merriweather", serif;
   margin: 0;
   text-align: center;
-  font-family: "Merriweather", serif;
 }
+
+/* ELEMENTS */
 
 a {
   color: #11999e;
-  text-decoration: none;
   font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
+  text-decoration: none;
 }
 
 a:hover{
@@ -23,8 +25,8 @@ p{
 hr{
   border: dotted #eaf6f6 6px;
   border-bottom: none;
-  width: 4%;
   margin: 100px auto;
+  width: 4%;
 }
 
 h1 {
@@ -47,6 +49,8 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+/* FIRST PAGE */
+
 .top-container {
   background-color: #e4f9f5;
   position: relative;
@@ -67,14 +71,14 @@ h3 {
 }
 
 .intro {
-  width: 30%;
   margin: auto;
+  width: 30%;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 250px;
   bottom: 300px;
+  left: 250px;
+  position: absolute;
 }
 
 .top-cloud {
@@ -82,6 +86,8 @@ h3 {
   right: 300px;
   top: 40px;
 }
+
+/* SKILL SECTION */
 
 .resize_picture {
   border-radius: 100%;
@@ -97,10 +103,11 @@ h3 {
 
 .skill-row {
   margin: 100px auto;
-  /* display: inline-block; */
   text-align: left;
   width: 50%;
 }
+
+/* CONTACT SECTION */
 
 .btn {
   background: #11cdd4;
@@ -131,8 +138,8 @@ h3 {
 }
 
 .contact-message{
-  width: 40%;
   margin: 40px auto 60px;
+  width: 40%;
 }
 
 .copyright{
